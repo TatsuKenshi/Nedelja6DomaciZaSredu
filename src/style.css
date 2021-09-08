@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+
+.user_panel{
+    display: flex;
+    justify-content: space-around;
+    background: beige;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.korpa_nologin {
+    display: none;
+}
+
+.admin_nologin {
+    display: none;
+}
+
+#dostupno {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.proizvod {
+    border: solid 1px black;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    background: beige;
+}
